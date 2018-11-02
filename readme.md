@@ -10,7 +10,8 @@ With [Quelpa](https://framagit.org/steckerhalter/quelpa)
 (use-package clone-indirect-buffer-other-frame
   :quelpa (clone-indirect-buffer-other-frame
            :fetcher github
-           :repo "ericcrosson/clone-indirect-buffer-other-frame"))
+           :repo "ericcrosson/clone-indirect-buffer-other-frame")
+  :bind ("C-x 5 c" . clone-indirect-buffer-other-frame))
 ```
 
 > Note: this project is not destined for [melpa](https://melpa.org/#/)
